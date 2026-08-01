@@ -1,6 +1,12 @@
 # Notes: Cybersecurity Fundamentals, Networking, Cryptography & Linux Cheat-Sheet
 
-## 1. Cybersecurity Basics
+**Lab Environment:** Kali Linux (attacker) `192.168.234.128` ↔ Metasploitable2 (target) `192.168.234.131` — isolated host-only network
+
+**Contents:** [🛡️ Cybersecurity Basics](#1-️-cybersecurity-basics) · [🌐 Networking Basics](#2--networking-basics) · [🔐 Cryptography Basics](#3--cryptography-basics) · [🐧 Linux Cheat-Sheet](#4--linux-command-cheat-sheet-used-in-this-task) · [🛠️ Tool Summary](#5--tool-familiarization-summary)
+
+---
+
+## 1. 🛡️ Cybersecurity Basics
 
 ### CIA Triad
 - **Confidentiality** – Only authorized people/systems can access the data. Achieved via encryption, access control, authentication.
@@ -22,7 +28,7 @@
 
 ---
 
-## 2. Networking Basics
+## 2. 🌐 Networking Basics
 
 ### OSI Model (7 Layers)
 1. **Physical** – Raw bit transmission over physical medium (cables, radio).
@@ -50,7 +56,7 @@
 
 ---
 
-## 3. Cryptography Basics
+## 3. 🔐 Cryptography Basics
 
 - **Symmetric Encryption** – Same key used to encrypt and decrypt (e.g., AES-256, used in our OpenSSL demo).
 - **Asymmetric Encryption** – Public key encrypts, private key decrypts (e.g., RSA). Used in SSL/TLS handshakes.
@@ -61,7 +67,7 @@
 
 ---
 
-## 4. Linux Command Cheat-Sheet (used in this task)
+## 4. 🐧 Linux Command Cheat-Sheet (used in this task)
 
 | Command | Purpose |
 |---|---|
@@ -77,7 +83,7 @@
 
 ---
 
-## 5. Tool Familiarization Summary
+## 5. 🔧 Tool Familiarization Summary
 
 | Tool | Purpose | What we did |
 |---|---|---|
@@ -88,7 +94,7 @@
 
 ---
 
-## Lab Environment
+## 📍 Lab Environment (Recap)
 - **Attacker Machine:** Kali Linux (VMware) – IP 192.168.234.128
 - **Target Machine:** Metasploitable2 – IP 192.168.234.131
 - **Network Mode:** Host-only/NAT adapter (isolated lab network)
